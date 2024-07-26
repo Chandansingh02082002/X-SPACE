@@ -1,0 +1,69 @@
+.navbar-container {
+  color: #000;
+  background-color: #fff3;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  display: flex;
+
+  & button {
+    cursor: pointer;
+    background-color: #0096ff;
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+    box-shadow: 0 0 0 1px #000;
+  }
+
+  & button:hover {
+    color: #f5f5f5;
+    background-color: #fff3;
+  }
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.otp-page-container {
+  background-color: #fff3;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0;
+  padding: 24px;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+.otp-input-container {
+  gap: 16px;
+  display: flex;
+}
+
+.otp-input-container input {
+  text-align: center;
+  color: #fff;
+  background-color: #fff6;
+  border: 2px solid #000;
+  border-radius: 8px;
+  outline: none;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  transition: border-color .3s;
+}
+
+.otp-input-container input:focus {
+  border-color: #36ba98;
+}
+/*# sourceMappingURL=index.c41b5a0e.css.map */
