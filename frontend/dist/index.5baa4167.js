@@ -39569,6 +39569,7 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _useLogin = require("../hooks/useLogin");
 var _useLoginDefault = parcelHelpers.interopDefault(_useLogin);
+var _reactRouterDom = require("react-router-dom");
 var _s = $RefreshSig$();
 const LoginPage = ()=>{
     _s();
@@ -39632,7 +39633,7 @@ const LoginPage = ()=>{
                             children: "Email"
                         }, void 0, false, {
                             fileName: "src/pages/loginPage.js",
-                            lineNumber: 45,
+                            lineNumber: 46,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -39648,13 +39649,13 @@ const LoginPage = ()=>{
                             }
                         }, void 0, false, {
                             fileName: "src/pages/loginPage.js",
-                            lineNumber: 46,
+                            lineNumber: 47,
                             columnNumber: 21
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/pages/loginPage.js",
-                    lineNumber: 44,
+                    lineNumber: 45,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -39672,7 +39673,7 @@ const LoginPage = ()=>{
                             children: "Password"
                         }, void 0, false, {
                             fileName: "src/pages/loginPage.js",
-                            lineNumber: 55,
+                            lineNumber: 56,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -39688,13 +39689,13 @@ const LoginPage = ()=>{
                             }
                         }, void 0, false, {
                             fileName: "src/pages/loginPage.js",
-                            lineNumber: 56,
+                            lineNumber: 57,
                             columnNumber: 21
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/pages/loginPage.js",
-                    lineNumber: 54,
+                    lineNumber: 55,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -39711,18 +39712,36 @@ const LoginPage = ()=>{
                     children: "Login"
                 }, void 0, false, {
                     fileName: "src/pages/loginPage.js",
-                    lineNumber: 64,
+                    lineNumber: 65,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "signup-link",
+                    children: [
+                        "Don't have an account? ",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                            to: "/signup",
+                            children: "Signup"
+                        }, void 0, false, {
+                            fileName: "src/pages/loginPage.js",
+                            lineNumber: 66,
+                            columnNumber: 69
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/pages/loginPage.js",
+                    lineNumber: 66,
                     columnNumber: 17
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/pages/loginPage.js",
-            lineNumber: 43,
+            lineNumber: 44,
             columnNumber: 13
         }, undefined)
     }, void 0, false, {
         fileName: "src/pages/loginPage.js",
-        lineNumber: 42,
+        lineNumber: 43,
         columnNumber: 9
     }, undefined);
 };
@@ -39741,7 +39760,7 @@ $RefreshReg$(_c, "LoginPage");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../hooks/useLogin":"bFiYx","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bFiYx":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../hooks/useLogin":"bFiYx","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"9xmpe"}],"bFiYx":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _reactRedux = require("react-redux");
@@ -39932,6 +39951,7 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _useSignup = require("../hooks/useSignup");
 var _useSignupDefault = parcelHelpers.interopDefault(_useSignup);
+var _reactRouterDom = require("react-router-dom");
 var _s = $RefreshSig$();
 const SignupPage = ()=>{
     _s();
@@ -39993,7 +40013,7 @@ const SignupPage = ()=>{
                             children: "Email"
                         }, void 0, false, {
                             fileName: "src/pages/signupPage.js",
-                            lineNumber: 46,
+                            lineNumber: 47,
                             columnNumber: 25
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -40009,13 +40029,13 @@ const SignupPage = ()=>{
                             }
                         }, void 0, false, {
                             fileName: "src/pages/signupPage.js",
-                            lineNumber: 47,
+                            lineNumber: 48,
                             columnNumber: 25
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/pages/signupPage.js",
-                    lineNumber: 45,
+                    lineNumber: 46,
                     columnNumber: 13
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40033,7 +40053,7 @@ const SignupPage = ()=>{
                             children: "Password"
                         }, void 0, false, {
                             fileName: "src/pages/signupPage.js",
-                            lineNumber: 56,
+                            lineNumber: 57,
                             columnNumber: 25
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -40049,13 +40069,13 @@ const SignupPage = ()=>{
                             }
                         }, void 0, false, {
                             fileName: "src/pages/signupPage.js",
-                            lineNumber: 57,
+                            lineNumber: 58,
                             columnNumber: 25
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/pages/signupPage.js",
-                    lineNumber: 55,
+                    lineNumber: 56,
                     columnNumber: 21
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -40072,18 +40092,36 @@ const SignupPage = ()=>{
                     children: "Sign Up"
                 }, void 0, false, {
                     fileName: "src/pages/signupPage.js",
-                    lineNumber: 65,
+                    lineNumber: 66,
+                    columnNumber: 21
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "login-link",
+                    children: [
+                        "Don't have an account? ",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                            to: "/login",
+                            children: "Login"
+                        }, void 0, false, {
+                            fileName: "src/pages/signupPage.js",
+                            lineNumber: 67,
+                            columnNumber: 72
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/pages/signupPage.js",
+                    lineNumber: 67,
                     columnNumber: 21
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/pages/signupPage.js",
-            lineNumber: 44,
+            lineNumber: 45,
             columnNumber: 13
         }, undefined)
     }, void 0, false, {
         fileName: "src/pages/signupPage.js",
-        lineNumber: 42,
+        lineNumber: 43,
         columnNumber: 9
     }, undefined);
 };
@@ -40102,7 +40140,7 @@ $RefreshReg$(_c, "SignupPage");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../hooks/useSignup":"2CGME","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"2CGME":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../hooks/useSignup":"2CGME","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"9xmpe"}],"2CGME":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _reactRouterDom = require("react-router-dom");

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import useLogin from "../hooks/useLogin";
+import { Link } from "react-router-dom";
 
 const LoginPage = () => {
     useEffect(() => {
@@ -62,7 +63,8 @@ const LoginPage = () => {
                     />
                 </div>
                 <button onClick={handleSubmit} style={{ padding: '10px 20px', borderRadius: '4px', border: 'none', backgroundColor: '#0096FF', color: 'white', fontWeight: 'bold', cursor:'pointer' }}>Login</button>
-            </div>
+                <div className="signup-link">Don't have an account? <Link to="/signup">Signup</Link></div>            
+                </div>
 
             </div>
     );

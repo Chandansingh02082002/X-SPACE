@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import useSignup from "../hooks/useSignup";
+import { Link } from "react-router-dom";
 
 const SignupPage = () => {
     useEffect(()=>{
@@ -63,6 +64,7 @@ const SignupPage = () => {
                         />
                     </div>
                     <button onClick={handleSubmit} style={{ padding: '10px 20px', borderRadius: '4px', border: 'none', backgroundColor: '#0096FF', color: 'white', fontWeight: 'bold', cursor:'pointer' }}>Sign Up</button>
+                    <div className="login-link">Don't have an account? <Link to="/login">Login</Link></div> 
             </div>
         </div>
         );
